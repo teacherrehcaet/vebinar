@@ -20,6 +20,8 @@ public class FirstTest {
     public void testOTUS(){
         driver.get("https://otus.ru");
         System.out.print(driver.getTitle()+"=======");
+
+        System.out.print("push ");
     }
 
     @AfterTest
